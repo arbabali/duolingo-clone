@@ -1,0 +1,18 @@
+{
+    "section": {
+        "name": "Section 1: Beginner",
+        "totalChaptersInUnit": 3,
+        "totalUnitsInSection": 1,
+        "units": [
+            {
+                "name": "Unit 1",
+                "description": "Simple greetings and introductions",
+                "chapters": [
+                    "Greetings",
+                    "Introduce yourself",
+                    "Thanking"
+                ]
+            }
+        ]
+    }
+}

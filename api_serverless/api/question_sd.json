@@ -1,0 +1,54 @@
+{
+  "id": "lesson_sindhi_1",
+  "learningLanguage": "sd",
+  "fromLanguage": "en",
+  "type": "LESSON",
+  "challenges": [
+    {
+      "prompt": "hello",
+      "choices": [
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "السلام عليڪم (Assalam Alaikum)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        },
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "خدا حافظ (Khuda Hafiz)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        },
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "توهان جو نالو ڇا آهي؟ (Tuhanjao naalo cha aahe?)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        }
+      ],
+      "correctIndex": 0,
+      "type": "select",
+      "id": "sd_q1"
+    },
+    {
+      "prompt": "thank you",
+      "choices": [
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "مهرباني (Mehrbani)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        },
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "اڄ خوش آهيو؟ (Aj khush aahyo?)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        },
+        {
+          "image": "../assets/svg/country-flags/sd-flag.svg",
+          "phrase": "شب بخير (Shab Bakhair)",
+          "tts": "../assets/audio/duolingo-lesson.mp3"
+        }
+      ],
+      "correctIndex": 0,
+      "type": "select",
+      "id": "sd_q2"
+    }
+  ]
+}
