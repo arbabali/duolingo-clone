@@ -10,6 +10,7 @@ const getLanguageFullForm = (languageCode) => {
     case 'ja': return "Japanese"
     case 'fr': return "French"
     case 'es': return "Spanish"
+    case 'sd': return "Sindhi"
     default: "Languages"
   }
 }
