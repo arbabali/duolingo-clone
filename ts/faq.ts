@@ -29,7 +29,7 @@ async function fetchDataAndShow(): Promise<void> {
     let faqData: FaqData;
 
     try {
-        let response = await fetch("https://duolingo-serverless-endpoint.vercel.app/api/faq");
+        let response = await fetch("http://localhost:3001/api/faq");
         faqData = await response.json();
     } catch (error) {
         console.error('Error fetching data:', error);

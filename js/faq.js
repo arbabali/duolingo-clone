@@ -24,7 +24,7 @@ function fetchDataAndShow() {
     return __awaiter(this, void 0, void 0, function* () {
         let faqData;
         try {
-            let response = yield fetch("https://duolingo-serverless-endpoint.vercel.app/api/faq");
+            let response = yield fetch("http://localhost:3001/api/faq");
             faqData = yield response.json();
         }
         catch (error) {

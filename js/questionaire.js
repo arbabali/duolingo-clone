@@ -212,7 +212,7 @@ let xpCount = -1;
 let questionLoad = () => {
 
     // let learnLang = localStorage.getItem("selectedLang");
-    fetch(`https://duolingo-serverless-endpoint.vercel.app/api/question?lang=${learnLang}`).then(response => response.json())
+    fetch(`http://localhost:3001/api/question?lang=${learnLang}`).then(response => response.json())
         .then(data => {
             //questionarie page funtionality
             let index = Math.floor(Math.random() * data.challenges.length);

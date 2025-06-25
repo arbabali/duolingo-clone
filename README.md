@@ -16,12 +16,12 @@ A website clone of [Duolingo](https://duolingo.com), A language learning app, do
 - Serverless Functions
 
 ### Our Serverless function  endpoints
- The base URL for our Serverless function is [https://duolingo-serverless-endpoint.vercel.app](https://duolingo-serverless-endpoint.vercel.app)
+ The base URL for our Serverless function is [http://localhost:3001](http://localhost:3001)
 The endpoints are 
-- [/api/faq](https://duolingo-serverless-endpoint.vercel.app/api/faq) 
-- [/api/question](https://duolingo-serverless-endpoint.vercel.app/api/question?lang=de)
-- [/api/section-details](https://duolingo-serverless-endpoint.vercel.app/api/section-details?lang=de) 
-- [/api/individual-lang-page-translation](https://duolingo-serverless-endpoint.vercel.app/api/individual-lang-page-translation?lang=de) 
+- [/api/faq](http://localhost:3001/api/faq) 
+- [/api/question](http://localhost:3001/api/question?lang=de)
+- [/api/section-details](http://localhost:3001/api/section-details?lang=de) 
+- [/api/individual-lang-page-translation](http://localhost:3001/api/individual-lang-page-translation?lang=de) 
 
 `last 3 endpoints need parameter 'lang' with allowed values 'ja','de','fr','es' `
 

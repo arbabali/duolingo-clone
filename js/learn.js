@@ -32,7 +32,7 @@ const closeAllOpenDialogBoxes = () => {
 
 const scrollToCurrentLesson = () => {
   const targetDivs = document.querySelectorAll(".circle_box.completed");
-  const targetDiv= targetDivs[targetDivs.length-3];
+  const targetDiv = targetDivs[targetDivs.length - 3];
   console.log(targetDiv);
   targetDiv.scrollIntoView();
 }
@@ -48,7 +48,7 @@ const openDialogBoxes = (event) => {
 let sectionData;
 async function fetchSectionData(lang, sectionId) {
   try {
-    let response = await fetch(`https://duolingo-serverless-endpoint.vercel.app/api/section-details?lang=${lang}&section=${sectionId}`);
+    let response = await fetch(`http://localhost:3001/api/section-details?lang=${lang}&section=${sectionId}`);
     sectionData = await response.json();
     localStorage.setItem("sectionData", JSON.stringify(sectionData));
     showLessonsInSection();
@@ -508,7 +508,7 @@ const placeUnitsandLessons = (sectionData, userData) => {
 
   scrollableContainer.insertAdjacentHTML("beforeend", bottomNavBar);
   placeuserStatistics();
-  
+
   updateStatistics();
   scrollToCurrentLesson();
 }

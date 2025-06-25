@@ -1,0 +1,12 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Format all JSON",
+        "type": "shell",
+        "command": "prettier --write '**/*.json'",
+        "problemMatcher": []
+      }
+    ]
+  }
+  
